@@ -11,7 +11,7 @@
     "build:vinext": "vite build",
     "start:vinext": "vite preview",
     "deploy:vinext": "vinext-cloudflare deploy --warm-cache",
-    "deploy:response-store": "cf deploy --prebuilt --mode production --worker yallabuy-next-response-store"
+    "deploy:response-store": "wrangler deploy --config wrangler.response-store.jsonc"
   },
   "dependencies": {
     "@cloudflare/workers-response-store": "^1.0.0",
