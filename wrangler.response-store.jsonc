@@ -1,8 +1,8 @@
 {
   "name": "yallabuy-next-response-store",
+  "main": ".cloudflare/output/v0/workers/yallabuy-next-response-store/bundle/index.js",
   "compatibility_date": "2026-09-28",
   "compatibility_flags": ["nodejs_compat"],
-  "services": [],
   "r2_buckets": [
     {
       "binding": "CACHE_BUCKET",
