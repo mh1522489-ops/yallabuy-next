@@ -1,0 +1,12 @@
+{
+  "name": "yallabuy-next-response-store",
+  "compatibility_date": "2026-09-28",
+  "compatibility_flags": ["nodejs_compat"],
+  "services": [],
+  "r2_buckets": [
+    {
+      "binding": "CACHE_BUCKET",
+      "bucket_name": "yallabuy-next-response-store-cache-bodies"
+    }
+  ]
+}
