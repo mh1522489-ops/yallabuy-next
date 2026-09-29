@@ -91,7 +91,7 @@ export const reviews: Product[] = [
     name: 'Sony WH-1000XM6',
     category: 'Headphones',
     description: 'Prototype product research card.',
-    image: '/images/product-placeholder.svg',
+    image: '/images/products/sony-wh1000xm6.png',
   },
   {
     id: '2',
