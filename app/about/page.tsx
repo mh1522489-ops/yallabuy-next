@@ -77,7 +77,7 @@ export default function About() {
 
       <footer>
         <div className="logo">NEXA</div>
-        <p>© 2026 Nexa. All rights reserved.</p>
+        <p>© 2026 Nexa  rights reserved.</p>
       </footer>
     </main>
   );

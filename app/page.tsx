@@ -1,29 +1,32 @@
-import Link from "next/link";
+import { Header } from '@/components/layout/header';
+import { Hero } from '@/components/hero/hero-section';
+import { PopularResearch } from '@/components/research/popular-research';
+import { ExploreCategories } from '@/components/categories/explore-categories';
+import { FeaturedComparisons } from '@/components/comparisons/featured-comparisons';
+import { LatestReviews } from '@/components/reviews/latest-reviews';
+import { BuyingGuides } from '@/components/guides/buying-guides';
+import { ResearchJourney } from '@/components/animations/research-journey';
+import { FinalCTA } from '@/components/layout/final-cta';
+import { Footer } from '@/components/layout/footer';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
-      <nav>
-        <h2>YallaBuy</h2>
+    <>
+      <Header />
 
-        <div>
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-        </div>
-      </nav>
+      <main>
+        <Hero />
+        <PopularResearch />
+        <ExploreCategories />
+        <FeaturedComparisons />
+        <LatestReviews />
+        <BuyingGuides />
+        <ResearchJourney />
+        <FinalCTA />
+      </main>
 
-      <section>
-        <h1>Welcome to YallaBuy 🚀</h1>
-
-        <p>
-          Discover useful products and make smarter buying decisions.
-        </p>
-
-        <Link href="/about">
-          Learn More About Us →
-        </Link>
-      </section>
-    </main>
+      <Footer />
+    </>
   );
 }
 
